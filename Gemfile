@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'simple_form'
-gem 'figaro'
+
+
 gem 'mini_magick'
 gem 'carrierwave', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -25,7 +25,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+#figaro
+gem 'simple_form'
+gem 'figaro'
+gem 'fog'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
